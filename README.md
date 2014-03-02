@@ -62,6 +62,6 @@ To View samples run
 
 sh run.sh
 
-All the files are generated in temp folder.
+All the files in temp folder are examples of string conversion.
 
-All the files in samples folder gives examples for localizable strings for different languages.
+All the files in samples folder are examples for localizable strings for different languages.
