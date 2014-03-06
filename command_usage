@@ -23,12 +23,9 @@ Errors Handled
 
 1.) Source file doesn't exist.
 
-
 2.) Invalid Source language.
 
-
 3.) Invalid Target Language.
-
 
 4.) Invalid number of arguments.
 
