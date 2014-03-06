@@ -63,7 +63,7 @@ To Build run the command
 To call Java method from command line use
 java translator -s sourcefilename -i sourcelanguage -t targetlanguage
 
-Usage: javac translator [-options]      
+Usage: java translator [-options]      
  
 	where options include:
 
