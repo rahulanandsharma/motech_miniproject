@@ -61,7 +61,7 @@ To Build run the command
 	sh build.sh
 
 To call Java method from command line use
-java defined_function -s sourcefilename -i sourcelanguage -t targetlanguage
+java translator -s sourcefilename -i sourcelanguage -t targetlanguage
 
 Usage: javac defined_function [-options]       
 	where options include:
