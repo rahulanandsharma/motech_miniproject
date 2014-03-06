@@ -53,15 +53,19 @@ ex usage
 
 
 
-
-How to run
+Command Line Usage 
 ==================
 
-To View samples run
+To Build run the command
 
+	run build.sh
 
-sh run.sh
+To call Java method from command line use
+java defined_function -s sourcefilename -i sourcelanguage -t targetlanguage
 
-All the files in temp folder are examples of string conversion.
+Usage: javac defined_function [-options]       
+	where options include:
+	-s Source File name
+	-i Source Language 
+	-t Target Language
 
-All the files in samples folder are examples for localizable strings for different languages.

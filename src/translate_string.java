@@ -9,10 +9,10 @@ public class translate_string
 public static void main (String[]args) throws Exception
   {
     
-System.out.println (trans_string ("Hello World", "SPANISH"));
+System.out.println (trans_string ("Hello World", "ENGLISH","HINDI"));
   
 } 
-public static String trans_string (String input, String lang) 
+public static String trans_string (String input, String initLang,String targLang) 
   {
     
 //Bing Client ID
@@ -20,542 +20,114 @@ public static String trans_string (String input, String lang)
     
 //Bing Client secret
 //try catch used to prevent crashing of program when unable to connect to internet
-      Translate.
-      setClientSecret ("6C7xj1fGRXbMabrGsULcrOc9TRuJoJIuismCPihPAd0=");
-    
-if (lang == "ARABIC")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.HINDI);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "BULGARIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.BULGARIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "CATALAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.CATALAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "CHINESE_SIMPLIFIED")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.CHINESE_SIMPLIFIED);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "CHINESE_TRADITIONAL")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.CHINESE_TRADITIONAL);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "CZECH")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.CZECH);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "DANISH")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.DANISH);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "ENGLISH")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.ENGLISH);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "ESTONIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.ESTONIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "FINNISH")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.FINNISH);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "FRENCH")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.FRENCH);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "GERMAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.GERMAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "GREEK")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.GREEK);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "HAITIAN_CREOLE")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.HAITIAN_CREOLE);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "HEBREW")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.HEBREW);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "HINDI")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.HINDI);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "HMONG_DAW")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.HMONG_DAW);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "INDONESIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.INDONESIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "ITALIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.ITALIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "JAPANESE")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.JAPANESE);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "KOREAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.KOREAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "LATVIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.LATVIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "LITHUANIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.LITHUANIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "MALAY")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.MALAY);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "NORWEGIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.NORWEGIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "MALAY")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.MALAY);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "PERSIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.PERSIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "POLISH")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.POLISH);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "PORTUGUESE")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.PORTUGUESE);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "ROMANIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.ROMANIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "RUSSIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.RUSSIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "SLOVAK")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.SLOVAK);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "SLOVENIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.SLOVENIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "SPANISH")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.SPANISH);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "SWEDISH")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.SWEDISH);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "THAI")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.THAI);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "TURKISH")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.TURKISH);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "UKRAINIAN")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.UKRAINIAN);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "URDU")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.URDU);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
-    else if (lang == "VIETNAMESE")
-      
-      {
-	try
-	{
-	  return Translate.execute (input, Language.VIETNAMESE);
-	}
-	catch (Exception e)
-	{
-	  return null;
-	}
-      }
-    
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-return null;
-  
+      Translate.setClientSecret ("6C7xj1fGRXbMabrGsULcrOc9TRuJoJIuismCPihPAd0=");
+try{
+return Translate.execute(input, determine(initLang.toUpperCase()), determine(targLang.toUpperCase()));
 }
+catch(Exception e)
+		{
+			System.out.println("Exception");
+return null;
+		}
+
+}
+public static Language determine(String lang)
+	{
+		Language tmp;
+		if(lang.equals("ARABIC"))tmp = Language.ARABIC;
+		else if (lang.equals("BULGARIAN"))tmp = Language.BULGARIAN;
+		else if (lang.equals("CATALAN"))tmp = Language.CATALAN;
+		else if (lang.equals("CHINESE_SIMPLIFIED"))tmp = Language.CHINESE_SIMPLIFIED;
+		else if (lang.equals("CHINESE_TRADITIONAL"))tmp = Language.CHINESE_TRADITIONAL;
+		else if (lang.equals("CZECH"))tmp = Language.CZECH;
+		else if (lang.equals("DANISH"))tmp = Language.DANISH;
+		else if (lang.equals("DUTCH"))tmp = Language.DUTCH;
+		else if (lang.equals("ENGLISH"))tmp = Language.ENGLISH;
+		else if (lang.equals("ESTONIAN"))tmp = Language.ESTONIAN;
+		else if (lang.equals("FINNISH"))tmp = Language.FINNISH;
+		else if (lang.equals("FRENCH"))tmp = Language.FRENCH;
+		else if (lang.equals("GERMAN"))tmp = Language.GERMAN;
+		else if (lang.equals("GREEK"))tmp = Language.GREEK;
+		else if (lang.equals("HAITIAN_CREOLE"))tmp = Language.HAITIAN_CREOLE;
+		else if (lang.equals("HEBREW"))tmp = Language.HEBREW;
+		else if (lang.equals("HINDI"))tmp = Language.HINDI;
+		else if (lang.equals("HMONG_DAW"))tmp = Language.HMONG_DAW;
+		else if (lang.equals("HUNGARIAN"))tmp = Language.HUNGARIAN;
+		else if (lang.equals("INDONESIAN"))tmp = Language.INDONESIAN;
+		else if (lang.equals("ITALIAN"))tmp = Language.ITALIAN;
+		else if (lang.equals("JAPANESE"))tmp = Language.JAPANESE;
+		else if (lang.equals("KOREAN"))tmp = Language.KOREAN;
+		else if (lang.equals("LATVIAN"))tmp = Language.LATVIAN;
+		else if (lang.equals("LITHUANIAN"))tmp = Language.LITHUANIAN;
+		else if (lang.equals("MALAY"))tmp = Language.MALAY;
+		else if (lang.equals("NORWEGIAN"))tmp = Language.NORWEGIAN;
+		else if (lang.equals("PERSIAN"))tmp = Language.PERSIAN;
+		else if (lang.equals("POLISH"))tmp = Language.POLISH;
+		else if (lang.equals("PORTUGUESE"))tmp = Language.PORTUGUESE;
+		else if (lang.equals("ROMANIAN"))tmp = Language.ROMANIAN;
+		else if (lang.equals("RUSSIAN"))tmp = Language.RUSSIAN;
+		else if (lang.equals("SLOVAK"))tmp = Language.SLOVAK;
+		else if (lang.equals("SLOVENIAN"))tmp = Language.SLOVENIAN;
+		else if (lang.equals("SPANISH"))tmp = Language.SPANISH;
+		else if (lang.equals("SWEDISH"))tmp = Language.SWEDISH;
+		else if (lang.equals("THAI"))tmp = Language.THAI;
+		else if (lang.equals("TURKISH"))tmp = Language.TURKISH;
+		else if (lang.equals("UKRAINIAN"))tmp = Language.UKRAINIAN;
+		else if (lang.equals("URDU"))tmp = Language.URDU;
+		else if (lang.equals("VIETNAMESE"))tmp = Language.VIETNAMESE;
+		else tmp = Language.ENGLISH;
+
+		return tmp;
+	}
+
+public static int check_invalid(String lang)
+	{
+		Language tmp;
+		if(lang.equals("ARABIC")) return 1;
+		else if (lang.equals("BULGARIAN")) return 1;
+		else if (lang.equals("CATALAN")) return 1;
+		else if (lang.equals("CHINESE_SIMPLIFIED")) return 1;
+		else if (lang.equals("CHINESE_TRADITIONAL")) return 1;
+		else if (lang.equals("CZECH")) return 1;
+		else if (lang.equals("DANISH")) return 1;
+		else if (lang.equals("DUTCH")) return 1;
+		else if (lang.equals("ENGLISH")) return 1;
+		else if (lang.equals("ESTONIAN")) return 1;
+		else if (lang.equals("FINNISH")) return 1;
+		else if (lang.equals("FRENCH")) return 1;
+		else if (lang.equals("GERMAN")) return 1;
+		else if (lang.equals("GREEK")) return 1;
+		else if (lang.equals("HAITIAN_CREOLE")) return 1;
+		else if (lang.equals("HEBREW")) return 1;
+		else if (lang.equals("HINDI")) return 1;
+		else if (lang.equals("HMONG_DAW")) return 1;
+		else if (lang.equals("HUNGARIAN")) return 1;
+		else if (lang.equals("INDONESIAN")) return 1;
+		else if (lang.equals("ITALIAN")) return 1;
+		else if (lang.equals("JAPANESE")) return 1;
+		else if (lang.equals("KOREAN")) return 1;
+		else if (lang.equals("LATVIAN")) return 1;
+		else if (lang.equals("LITHUANIAN")) return 1;
+		else if (lang.equals("MALAY")) return 1;
+		else if (lang.equals("NORWEGIAN")) return 1;
+		else if (lang.equals("PERSIAN")) return 1;
+		else if (lang.equals("POLISH")) return 1;
+		else if (lang.equals("PORTUGUESE")) return 1;
+		else if (lang.equals("ROMANIAN")) return 1;
+		else if (lang.equals("RUSSIAN")) return 1;
+		else if (lang.equals("SLOVAK")) return 1;
+		else if (lang.equals("SLOVENIAN")) return 1;
+		else if (lang.equals("SPANISH")) return 1;
+		else if (lang.equals("SWEDISH")) return 1;
+		else if (lang.equals("THAI")) return 1;
+		else if (lang.equals("TURKISH")) return 1;
+		else if (lang.equals("UKRAINIAN")) return 1;
+		else if (lang.equals("URDU")) return 1;
+		else if (lang.equals("VIETNAMESE")) return 1;
+		else  return 0;
+	}
+
+
 
 }
 
