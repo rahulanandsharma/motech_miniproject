@@ -69,6 +69,8 @@ System.out.println("Invalid Target Language");
 System.out.println("See Languges.txt for list of Supported Languages");
 return ;
 }
+initlang=initlang.toUpperCase();
+targlang=targlang.toUpperCase();
 System.out.println("File : " + source +" to be Converted from " + initlang + " to " +targlang );
     convert_localizablestring (source, initlang,targlang);
 
@@ -126,11 +128,11 @@ System.out.println("Lines in input File : "+ lnr.getLineNumber());
 		out.append ("=" +rofl).append ("\r\n");
 	      }
 
-	out.flush ();
+
 	  }
 	if(nullcount>0)
 		System.out.println("Parses failed for lines : " +nullcount );
-
+	out.flush ();
 	out.close ();
 	scanner.close ();
       }
