@@ -28,7 +28,7 @@ for(int count=0;count<args.length;count++)
           //even numbered arguments should begin with -
           System.out.println("Improper Syntax: ");
 System.out.println("Invalid Number of Arguments");
-System.out.println("Usage: javac defined_function [-options]  ");     
+System.out.println("Usage: java translator [-options]  ");     
 System.out.println("	where options include:");
 System.out.println("-s\t Source File name");
 System.out.println("-i\t Source Language ");
@@ -50,7 +50,7 @@ return ;
 if(source=="" ||initlang==""||targlang=="")
 {
 System.out.println("Invalid Number of Arguments");
-System.out.println("Usage: javac defined_function [-options]  ");     
+System.out.println("Usage: java translator [-options]  ");     
 System.out.println("	where options include:");
 System.out.println("-s\t Source File name");
 System.out.println("-i\t Source Language ");
