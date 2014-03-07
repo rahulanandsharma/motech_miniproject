@@ -24,7 +24,7 @@ ex usage
 
 	A demo of this Function is available in directory temp.
 
-4.) A new Function created in file defined_function.java
+4.) A new Function created in file translator.java
 
 
 ex usage
