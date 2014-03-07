@@ -59,6 +59,7 @@ Command Line Usage
 To Build run the command
 
 	sh build.sh
+	export CLASSPATH='.:library/microsoft-translator-java-api-0.6.2.jar:library/json-simple-1.1.1.jar:class/'
 
 To call Java method from command line use
 
