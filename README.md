@@ -30,7 +30,7 @@ ex usage
 ex usage
 
 
-	defined_function call=new defined_function();
+	translator call=new translator();
 	call.convert_localizablestring("samples/message.properties","HINDI");
 
 
@@ -59,6 +59,7 @@ Command Line Usage
 To Build run the command
 
 	sh build.sh
+export CLASSPATH='.:library/microsoft-translator-java-api-0.6.2.jar:library/json-simple-1.1.1.jar:class/'
 
 To call Java method from command line use
 java translator -s sourcefilename -i sourcelanguage -t targetlanguage
