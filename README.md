@@ -30,13 +30,13 @@ ex usage
 ex usage
 
 
-	defined_function call=new defined_function();
+	translator call=new translator();
 	call.convert_localizablestring("samples/message.properties","HINDI");
 
 
 	It creates a file message.properties_HINDI with all UI strings converted to hindi.
 
-	A demo of this Function is available in directory samples.
+
 
 
 5.) I have used Try cache for every function call to prevent crashing of program 
