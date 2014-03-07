@@ -14,7 +14,7 @@ import java.io.LineNumberReader;
 import java.io.FileReader;
 
 
-public class translator
+public class defined_function
 {
   public static void main (String[]args) throws Exception
   {
